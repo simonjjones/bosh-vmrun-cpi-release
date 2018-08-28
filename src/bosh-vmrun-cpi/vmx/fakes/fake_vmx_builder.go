@@ -4,6 +4,8 @@ package fakes
 import (
 	"bosh-vmrun-cpi/vmx"
 	"sync"
+
+	"github.com/hooklift/govmx"
 )
 
 type FakeVmxBuilder struct {
